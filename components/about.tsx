@@ -437,7 +437,7 @@ export function About() {
         {/* Certifications Section */}
         <div ref={certificationsRef}>
           <div className="flex items-center gap-3 mb-8">
-            <div className="p-2 bg-primary/10 rounded-lg">
+            <div className="p-2 bg-primary/10 text-primary rounded-lg">
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6 text-primary dark:text-primary/10">
                 <circle cx="12" cy="8" r="6" />
                 <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
