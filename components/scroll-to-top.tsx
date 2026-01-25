@@ -125,7 +125,7 @@ export function ScrollToTop() {
       onClick={scrollToTop}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
-      className="fixed bottom-6 right-6 z-50 p-2 bg-primary text-primary-foreground rounded-full shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background opacity-0 scale-0 cursor-pointer"
+      className="fixed bottom-6 right-6 z-40 p-2 bg-primary text-primary-foreground rounded-full shadow-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background opacity-0 scale-0 cursor-pointer"
       aria-label="Scroll to top"
     >
       <svg

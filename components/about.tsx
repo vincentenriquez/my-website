@@ -438,7 +438,7 @@ export function About() {
         <div ref={certificationsRef}>
           <div className="flex items-center gap-3 mb-8">
             <div className="p-2 bg-primary/10 rounded-lg">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6 text-primary">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-6 h-6 text-primary dark:text-primary/10">
                 <circle cx="12" cy="8" r="6" />
                 <path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11" />
               </svg>
@@ -499,7 +499,7 @@ export function About() {
 
           {/* Certificate detail modal */}
           <Dialog open={!!selectedCert} onOpenChange={(open) => !open && setSelectedCert(null)}>
-            <DialogContent className="w-full max-w-[95vw] sm:max-w-xl gap-0 p-0 overflow-hidden [&>button]:cursor-pointer [&>button]:hover:opacity-80"
+            <DialogContent className="w-full max-w-[95vw] sm:max-w-xl gap-0 p-0 overflow-hidden [&>button]:cursor-pointer [&>button]:hover:opacity-80 [&>button]:text-primary [&>button>*]:text-primary"
             onInteractOutside={(e) => e.preventDefault()}
             onEscapeKeyDown={(e) => e.preventDefault()}
             >

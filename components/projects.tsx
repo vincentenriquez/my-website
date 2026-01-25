@@ -258,17 +258,17 @@ function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
       {/* Modal Content */}
       <div
         ref={contentRef}
-        className="relative w-full max-w-5xl max-h-[90vh] overflow-y-auto bg-card border border-border shadow-2xl rounded-sm"
+        className="relative w-full max-w-5xl max-h-[90vh] overflow-y-auto bg-card dark:bg-background border border-border shadow-2xl rounded-sm"
         onClick={(e) => e.stopPropagation()}
       >
         {/* Close Button */}
         <button
           onClick={onClose}
-          className="absolute top-4 right-4 z-10 p-2 rounded-full hover:bg-background cursor-pointer transition-colors duration-200"
+          className="absolute top-1 right-1 z-10 p-1 rounded-full hover:bg-background cursor-pointer transition-colors duration-200"
           aria-label="Close modal"
         >
           <svg
-            className="w-6 h-6 text-foreground"
+            className="w-5 h-5 text-foreground"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -284,7 +284,7 @@ function ProjectModal({ project, isOpen, onClose }: ProjectModalProps) {
 
         {/* Project Details */}
         <div className="p-4 lg:p-8">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-foreground">
+          <h2 className="text-2xl md:text-4xl font-bold mb-4 text-foreground">
             {project.title}
           </h2>
 

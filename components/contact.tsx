@@ -14,7 +14,7 @@ if (typeof window !== "undefined") {
 const socialLinks = [
   {
     name: "Facebook",
-    href: "https://facebook.com/yourusername",
+    href: "https://www.facebook.com/vincentlawrence.enriquez.3",
     bgColor: "bg-blue-600",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -24,7 +24,7 @@ const socialLinks = [
   },
   {
     name: "Twitter",
-    href: "https://twitter.com/yourusername",
+    href: "https://x.com/lawrenceeeee_14?s=21",
     bgColor: "bg-sky-500",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -34,7 +34,7 @@ const socialLinks = [
   },
   {
     name: "Instagram",
-    href: "https://instagram.com/yourusername",
+    href: "https://www.instagram.com/atamsgotvzn/",
     bgColor: "bg-gradient-to-r from-purple-600 via-pink-600 to-orange-500",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -44,7 +44,7 @@ const socialLinks = [
   },
   {
     name: "GitHub",
-    href: "https://github.com/yourusername",
+    href: "https://github.com/vincentenriquez",
     bgColor: "bg-gray-800 dark:bg-gray-900",
     icon: (
       <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
@@ -268,16 +268,14 @@ export function Contact() {
             <div className="info-animate">
               <h3 className="text-2xl md:text-3xl font-bold text-foreground mb-4">Social Media</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Got any concerns and questions? Want you to share your basketball advice? I'd love to 
-                hear it. Know of a basketball league I can join? Let me know, I'm ready to play! Feel free to 
-                connect with me anytime!
+                Got any concerns and questions? Want you to discuss projects? I'd love to hear it. Know of a opportunities where I can contribute? Let me know, I'm always open to collaborate! Feel free to connect with me anytime!
               </p>
             </div>
 
             {/* Contact Details */}
             <div className="info-animate space-y-4">
               {/* Email */}
-              <div className="flex items-center gap-4">
+              {/* <div className="flex items-center gap-4">
                 <div className="flex-shrink-0 text-muted-foreground">
                   <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="w-5 h-5">
                     <rect width="20" height="16" x="2" y="4" rx="2" />
@@ -287,13 +285,13 @@ export function Contact() {
                 <div>
                   <p className="text-sm text-muted-foreground">Email</p>
                   <a 
-                    href="mailto:vincentenriquez407@gmail.com" 
-                    className="font-medium text-foreground hover:text-primary transition-colors duration-300"
+                    href="mailto:enriquezvincentlawrence1214@gmail.com" 
+                    className="font-medium text-xs text-foreground hover:text-primary transition-colors duration-300"
                   >
-                    vincentenriquez407@gmail.com
+                    enriquezvincentlawrence1214@gmail.com
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* Social Media Icons */}
